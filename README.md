@@ -9,18 +9,18 @@ FILES
 -----
 phase1.c
 Demonstrates a race condition by allowing multiple threads to update the same
-account without synchronization.
+account without synchronization.  
 
 phase2.c
 Uses a pthread mutex to protect the shared account and ensure the final balance
-and transaction count are correct.
+and transaction count are correct.  
 
 phase3.c
 Creates an intentional deadlock. Two threads each lock one account and wait for
-the account locked by the other thread.
+the account locked by the other thread.  
 
 phase4.c
-Prevents deadlock by always locking accounts in the same order.
+Prevents deadlock by always locking accounts in the same order.  
 
 COMPILE
 -------

@@ -24,10 +24,10 @@ Prevents deadlock by always locking accounts in the same order.
 
 COMPILE
 -------
-gcc -Wall -Wextra -pthread phase1.c -o phase1
-gcc -Wall -Wextra -pthread phase2.c -o phase2
-gcc -Wall -Wextra -pthread phase3.c -o phase3
-gcc -Wall -Wextra -pthread phase4.c -o phase4
+gcc -Wall -Wextra -pthread phase1.c -o phase1  
+gcc -Wall -Wextra -pthread phase2.c -o phase2  
+gcc -Wall -Wextra -pthread phase3.c -o phase3  
+gcc -Wall -Wextra -pthread phase4.c -o phase4  
 
 RUN
 ---

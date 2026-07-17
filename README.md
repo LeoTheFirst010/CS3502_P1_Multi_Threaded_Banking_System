@@ -31,10 +31,10 @@ gcc -Wall -Wextra -pthread phase4.c -o phase4
 
 RUN
 ---
-./phase1
-./phase2
-./phase3
-./phase4
+- ./phase1
+- ./phase2
+- ./phase3
+- ./phase4
 
 EXPECTED RESULTS
 ----------------
